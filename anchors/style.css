@@ -1,0 +1,55 @@
+body {
+  cursor: auto;
+}
+#main {
+  height: 80%;
+}
+
+#img {
+  margin-left: 200px;
+  margin-top: 10%;
+  width: 1200px;
+}
+#ramka {
+  margin-left: 200px;
+  width: 1200px;
+  float: left;
+  padding: 1%;
+  border: 1px solid gray;
+}
+#przy1 {
+  float: left;
+  background-color: #237cf8;
+  padding: 1%;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  outline: 0;
+  font-size: 20px;
+}
+#przy1:hover {
+  background-color: grey;
+}
+#przy1:active {
+  background-color: blue;
+}
+.przy2:hover {
+  background-color: grey;
+  color: white;
+}
+.przy2:active {
+  background-color: blue;
+  color: white;
+}
+
+.przy2 {
+  float: left;
+
+  padding: 1%;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  outline: 0;
+  font-size: 20px;
+  color: blue;
+}
