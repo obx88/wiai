@@ -1,55 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   cursor: auto;
 }
+#container {
+  width: auto;
+  margin: 0 auto;
+  max-width: 884px;
+}
 #main {
   height: 80%;
-}
-
-#img {
-  margin-left: 200px;
-  margin-top: 10%;
-  width: 1200px;
+  max-width: 500px;
 }
 #ramka {
-  margin-left: 200px;
-  width: 1200px;
-  float: left;
-  padding: 1%;
-  border: 1px solid gray;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
 }
-#przy1 {
-  float: left;
-  background-color: #237cf8;
-  padding: 1%;
+.btn {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
   border-radius: 10px;
-  color: white;
-  border: none;
-  outline: 0;
-  font-size: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: background-color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
 }
-#przy1:hover {
-  background-color: grey;
+.btn:hover {
+  color: hsl(214, 71%, 44%);
 }
-#przy1:active {
-  background-color: blue;
+.btn:first-child {
+  color: #fff;
+  background-color: hsl(214, 71%, 44%);
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
 }
-.przy2:hover {
-  background-color: grey;
-  color: white;
-}
-.przy2:active {
-  background-color: blue;
-  color: white;
-}
-
-.przy2 {
-  float: left;
-
-  padding: 1%;
-  border-radius: 10px;
-  border: none;
-  background: none;
-  outline: 0;
-  font-size: 20px;
-  color: blue;
+.btn:first-child:hover {
+  color: #fff;
+  background-color: hsl(214, 71%, 20%);
 }
